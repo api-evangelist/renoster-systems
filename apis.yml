@@ -1,7 +1,26 @@
 aid: renoster-systems
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/renoster-systems.png
 name: Renoster Systems
-description: Renoster Systems is a company surfaced as a portfolio company of techstars and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Renoster Systems is a carbon-credit ratings agency bringing deep transparency
+  to the nature-based voluntary carbon markets. Using remote sensing, LiDAR, satellite
+  data, and machine learning, Renoster independently rates forestry and other nature-based
+  carbon offset projects, quantifying how much CO2 per credit a project has actually
+  sequestered, and publishes public tools such as its Mercury project database and
+  Renoster/Mercury rubric for researchers, reserve managers, policymakers, and corporate
+  buyers. Renoster is a Techstars-backed startup. As of this profile the company does
+  not publish a public developer API, SDKs, or machine-readable API surface; this
+  record captures its company identity and public web properties.'
 url: https://raw.githubusercontent.com/api-evangelist/renoster-systems/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Carbon Markets
+- Carbon Credits
+- Climate
+- Sustainability
+- Ratings
+- Remote Sensing
+- MRV
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/renoster-systems-domain-security.yml
 - type: Website
-  url: https://renostersystems.co/
+  url: https://renoster.co/
+- type: Blog
+  url: https://renoster.co/resources/blog
+- type: Support
+  url: https://renoster.co/contact
+- type: TermsOfService
+  url: https://renoster.co/terms
+- type: PrivacyPolicy
+  url: https://renoster.co/privacy-policy
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
