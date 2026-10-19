@@ -1,0 +1,44 @@
+edges:
+- partner_name: Isometric Registry
+  partner: isometric
+  partner_match: register
+  type: register
+  channel: standard-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://registry.isometric.com/
+  category: Carbon removal supplier
+  contract_reference:
+    register: Isometric Registry (registry.isometric.com; edge.isometric.com public GraphQL)
+    spec_file: null
+    standard: Isometric Standard
+    role: isometric-supplier
+    registered_name: Renoster
+    register_id: spl_1K1Y0PY3T1S0C8W1
+    registered_country: USA
+    matched_domain: renoster.co
+    matched_by: domain
+    identity_source: supplier's own organisation domain (Isometric registry)
+    certified_products: []
+    signal_note: certified_products = one entry per CDR pathway with a VALIDATED project (only validated projects
+      can be issued credits); project counts and tonnes are never recorded
+    detected_by: sweep-carbon-environment.py
+    detected: '2026-10-19'
+  detected_by: sweep-carbon-environment.py
+  first_seen: '2026-10-19'
+generated: '2026-10-19'
+method: searched
+source:
+- https://edge.isometric.com/graphql
+- https://public-api.goldstandard.org/projects?page=1&size=100
+- https://puro.earth/puro_facility-sitemap.xml
+- https://www.cdr.fyi/sitemap.xml
+- https://www.icvcm.org/assessment-status/
+- https://rcrapublic.epa.gov/rcra-public-export/rest/api/v1/public/export/current/CSV
+checked:
+- https://edge.isometric.com/graphql
+- https://public-api.goldstandard.org/projects?page=1&size=100
+- https://puro.earth/puro_facility-sitemap.xml
+- https://rcrapublic.epa.gov/rcra-public-export/rest/api/v1/public/export/current/CSV
+- https://www.cdr.fyi/sitemap.xml
+- https://www.icvcm.org/assessment-status/
